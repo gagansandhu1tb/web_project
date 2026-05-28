@@ -95,7 +95,7 @@ const geocodeLocation = async (query) => {
 
   const response = await fetch(url, {
     headers: {
-      'User-Agent': 'FixMyCampus/1.0 (student project)'
+      'User-Agent': 'CampusFix/1.0 (student project)'
     }
   });
 
@@ -320,7 +320,7 @@ app.get('/api/geocode', async (req, res) => {
 });
 
 const server = app.listen(PORT, () => {
-  console.log(`FixMyCampus API server running on http://localhost:${PORT}`);
+  console.log(`CampusFix API server running on http://localhost:${PORT}`);
 });
 
 server.on('error', (err) => {

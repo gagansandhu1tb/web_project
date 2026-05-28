@@ -26,7 +26,7 @@ function Login({ onLogin }) {
     <div className="login-shell">
       <section className="panel login-panel">
         <div className="login-logo">🔧</div>
-        <h2>FixMyCampus</h2>
+        <h2>CampusFix</h2>
         <p>Sign in with your campus credentials to report and track maintenance issues.</p>
         {error && <p style={{ color: 'var(--red)', fontSize: '0.85rem', marginBottom: '0.5rem' }}>{error}</p>}
         <form className="login-form" onSubmit={handleSubmit}>
